@@ -1,0 +1,152 @@
+.bodybody {
+  background-image: url(https://i.pinimg.com/originals/12/d6/8a/12d68aeeabea27504d88c415044248af.gif);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content .product {
+  width: 255px;
+  margin: 1rem 1rem;
+  
+  text-align: center;
+  border: 1px inset #ddd;
+  background: #000;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+}
+
+.content .product img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content .product .shopping {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.content .product .shopping button {
+  height: 50px;
+  width: 60px;
+  border: none;
+  border-radius: 10px;
+}
+
+.content .product .shopping button:last-child {
+  background-color: rgb(221, 153, 153);
+}
+
+.content .product .shopping button:first-child {
+  background-color: rgb(158, 221, 153);
+}
+
+.cart i {
+  margin-top: 10px;
+  float: right;
+  color: #fff;
+  font-size: 50px;
+}
+
+/* carts */
+.container_cart {
+  display: none;
+}
+.container_carthide {
+  border: 1px solid silver;
+  opacity: 0.9;
+  padding: 20px;
+  background-color: #000;
+  position: fixed;
+  right: 110px;
+}
+
+.cart img {
+  width: 5rem;
+  margin-right: 20px;
+}
+
+.cart_user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.total_cart {
+  text-align: center;
+}
+
+.nav_cart button {
+  padding: 20px;
+  margin: 0 30px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+.container_amount {
+  position: relative;
+}
+.amount_cart {
+  color: #000;
+  top: 13px;
+  right: 18px;
+  position: absolute;
+}
+.none {
+  display: none;
+}
+.cart_2 {
+  position: fixed;
+  background-color: #000;
+  opacity: 0.9;
+  width: 30rem;
+  top: 30%;
+  left: 30%;
+  padding: 50px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex p {
+  margin: 0;
+}
+.info {
+  border-bottom: 1px solid #fff;
+}
+.cart_2 div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+.cart_2 .button {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.cart_2 div:nth-child(3) button {
+  padding: 20px;
+  margin: 0 30px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+.thank {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
